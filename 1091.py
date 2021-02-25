@@ -7,7 +7,6 @@ num=[]
 num=input().split(" ")
 
 
-
 def judge(number):
     
     number_length=len(str(number))
