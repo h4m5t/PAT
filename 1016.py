@@ -15,9 +15,10 @@ for i in b:
         sumb+=1
 
 
-
-
-print(int(suma*da)+int(sumb*db))
+if suma==0 or sumb==0:
+    print(0)
+else:
+    print(int(suma*da)+int(sumb*db))
 
 
 
